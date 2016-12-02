@@ -2,14 +2,14 @@
 An android library for navigator that stick on the top 
 
 
-# Ч��ͼ
+# 效果图
 
 ![](sc.gif)
 
 
-# �÷�
-ֱ����Ϊ�����֣��ڲ�һ�η��ã������������򣬵�����ViewPager��
-ע��id����Ҫʹ��Ԥ����id��Դ��
+# 用法
+直接作为跟布局，内部一次放置，顶部内容区域，导航，ViewPager。
+注意id，需要使用预定的id资源。
 
 ```xml
 <com.zhy.view.StickyNavLayout xmlns:tools="http://schemas.android.com/tools"
@@ -28,7 +28,7 @@ An android library for navigator that stick on the top
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:gravity="center"
-            android:text="��������"
+            android:text="软件介绍"
             android:textSize="30sp"
             android:textStyle="bold" />
     </RelativeLayout>
@@ -50,9 +50,4 @@ An android library for navigator that stick on the top
 </com.zhy.view.StickyNavLayout>
 
 ```
-
-#������
-
-[�ҵĲ��͵�ַ][3]
-
-[3]: http://blog.csdn.net/lmj623565791
+本Demo 来自鸿阳大神,我稍作修改,无意冒犯~因为第一次提交gitHub 代码,练习一下
